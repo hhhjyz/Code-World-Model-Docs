@@ -24,4 +24,4 @@
 - 通过 Pull Request 提交笔记，说明新增内容、证据来源和待讨论问题。
 - 建议另一位成员审阅后合并；尚未达成共识的问题保留在笔记或 Issues 中。
 - 两份 README 均仅保留项目索引和目录导航两个章节；主 README 使用英文。
-- 项目索引统一使用 Work、Article、Website、Code、Notes 五列；使用 shields.io 徽章链接论文、网站、代码和笔记，尚未核实或缺失的链接用“—”表示。
+- 项目索引统一使用 Work、Article、Website、Code、Notes 五列；使用 shields.io 徽章链接论文、网站、代码和笔记，尚未核实或缺失的链接用 `-` 表示。
