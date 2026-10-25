@@ -2,9 +2,6 @@
 
 - 论文链接：https://arxiv.org/abs/2608.25927
 - 官方代码 / 项目页：[Code](https://github.com/buaacyw/code-world-model) / [Website](https://buaacyw.github.io/cwm/)
-- 论文版本与日期：
-- 阅读人：
-- 更新日期：
 
 ### 1. Background
 

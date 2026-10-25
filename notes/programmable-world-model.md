@@ -2,9 +2,6 @@
 
 - 论文链接：https://arxiv.org/abs/2609.10540
 - 官方代码 / 项目页：[Code](https://github.com/AlayaLab/pwm) / [Website](https://alaya-lab.github.io/pwm/)
-- 论文版本与日期：
-- 阅读人：
-- 更新日期：
 
 ### 1. Background
 

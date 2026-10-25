@@ -2,9 +2,6 @@
 
 - 论文链接：https://assets.vast-eden.ai/assets/edenlive/EdenLive-tech-report.pdf
 - 官方代码 / 项目页：[Code](https://github.com/VAST-AI-Research/EdenLive) / [Website](https://vast-eden.ai/?p=edenlive)
-- 论文版本与日期：
-- 阅读人：
-- 更新日期：
 
 ### 1. Background
 
