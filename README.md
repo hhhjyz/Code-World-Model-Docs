@@ -1,4 +1,4 @@
-# Code World Model Reading
+# Code World Model Docs
 
 共同维护的 Code World Model 方向文档库，收录论文、开源项目、阅读笔记、横向比较与研究设想。
 
