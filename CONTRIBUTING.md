@@ -4,7 +4,7 @@
 
 1. 优先核实原始论文、官方项目页和代码仓库，避免同名工作混淆。
 2. 复制 [笔记模板](templates/paper-note.md) 到 `notes/<work-name>.md`。
-3. 在 [README](README.md) 的索引中增加工作、来源和笔记链接。
+3. 在英文 [README](README.md) 和[中文 README](README.zh-CN.md) 的索引中同步增加工作及相关链接。
 
 文件名使用小写英文及连字符；正文可以使用中文。每项工作维护一篇主笔记，多人直接补充同一文件。笔记按模板的 Background、Method、Experiments、Limitation 四部分展开。
 
@@ -23,4 +23,5 @@
 - 提交信息说明具体修改，例如 `docs: add Code World Model reading notes`。
 - 通过 Pull Request 提交笔记，说明新增内容、证据来源和待讨论问题。
 - 建议另一位成员审阅后合并；尚未达成共识的问题保留在笔记或 Issues 中。
-- README 的论文索引仅维护工作、论文 / 项目入口和阅读笔记三列。
+- 两份 README 均仅保留项目索引和目录导航两个章节；主 README 使用英文。
+- 项目索引统一使用 Work、Article、Website、Code、Notes 五列；使用 shields.io 徽章链接论文、网站、代码和笔记，尚未核实或缺失的链接用“—”表示。

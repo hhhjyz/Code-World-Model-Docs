@@ -1,44 +1,27 @@
 # Code World Model Docs
 
-共同维护的 Code World Model 方向文档库，收录论文、开源项目与阅读笔记。
+**English** | [简体中文](README.zh-CN.md)
 
-## 调研关注点
+## Project Index
 
-- **可执行世界状态**：状态如何表示、持久保存，并在动作与事件下更新？
-- **代码与智能体**：Code / Agent 负责规则、动力学、规划还是环境构建？
-- **视觉接口**：可执行状态通过何种中间表示连接到视频生成或渲染？
-- **持续交互与控制**：是否支持流式生成、中途指令切换、相机控制及实时编辑？
-- **验证与局限**：长期一致性、因果与规则遵循有哪些实验证据？
+| Work | Article | Website | Code | Notes |
+| --- | --- | --- | --- | --- |
+| Programmable World Model | [![arXiv](https://img.shields.io/badge/arXiv-2609.10540-b31b1b.svg)](https://arxiv.org/abs/2609.10540) | [![Website](https://img.shields.io/badge/Website-Link-blue.svg)](https://alaya-lab.github.io/pwm/) | [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/AlayaLab/pwm) | [![Notes](https://img.shields.io/badge/Notes-Markdown-8A2BE2.svg)](notes/programmable-world-model.md) |
+| Code World Model | [![arXiv](https://img.shields.io/badge/arXiv-2608.25927-b31b1b.svg)](https://arxiv.org/abs/2608.25927) | [![Website](https://img.shields.io/badge/Website-Link-blue.svg)](https://buaacyw.github.io/cwm/) | [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/buaacyw/code-world-model) | [![Notes](https://img.shields.io/badge/Notes-Markdown-8A2BE2.svg)](notes/code-world-model.md) |
+| Streaming Code World Model | — | — | [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/TingtingLiao/streaming-code-world-model) | [![Notes](https://img.shields.io/badge/Notes-Markdown-8A2BE2.svg)](notes/streaming-code-world-model.md) |
+| Code Video Model | — | — | — | [![Notes](https://img.shields.io/badge/Notes-Markdown-8A2BE2.svg)](notes/code-video-model.md) |
+| AgentGarten | — | — | — | [![Notes](https://img.shields.io/badge/Notes-Markdown-8A2BE2.svg)](notes/agentgarten.md) |
+| Edenlive | — | — | — | [![Notes](https://img.shields.io/badge/Notes-Markdown-8A2BE2.svg)](notes/edenlive.md) |
 
-## 论文与项目索引
+“—” indicates a link that has not yet been verified or added. Notes currently contain reading frameworks.
 
-下表是初始收录清单。论文、开源实现和产品演示的性质以各自官方来源为准；缺失来源待核实后补充。
+## Directory Navigation
 
-| 工作 | 论文 / 项目入口 | 阅读笔记 |
-| --- | --- | --- |
-| Programmable World Model | [arXiv](https://arxiv.org/abs/2609.10540) | [笔记](notes/programmable-world-model.md) |
-| Code World Model | [arXiv](https://arxiv.org/abs/2608.25927) | [笔记](notes/code-world-model.md) |
-| Streaming Code World Model | [GitHub](https://github.com/TingtingLiao/streaming-code-world-model) | [笔记](notes/streaming-code-world-model.md) |
-| Code Video Model | 待补充官方链接 | [笔记](notes/code-video-model.md) |
-| AgentGarten | 待补充官方链接 | [笔记](notes/agentgarten.md) |
-| Edenlive | 待补充官方链接 | [笔记](notes/edenlive.md) |
-
-> 笔记文件已建立阅读框架，尚未填入完整调研结论。
-
-## 目录导航
-
-| 路径 | 用途 |
+| Path | Description |
 | --- | --- |
-| [notes/](notes/) | 每项工作一篇阅读笔记 |
-| [templates/paper-note.md](templates/paper-note.md) | Background、Method、Experiments、Limitation 四部分笔记模板 |
-| [assets/](assets/) | 笔记图片与自制图表 |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | 共同维护约定 |
-
-## 如何参与
-
-1. 在 Issues 中提出收录建议、阅读问题或实验讨论，避免重复工作。
-2. 复制笔记模板，在 `notes/` 下创建或补充对应 Markdown 文件。
-3. 在新分支提交修改，并发起 Pull Request；建议由另一位成员核对方法理解和实验出处。
-4. 合并后同步更新首页索引。
-
-论文原文优先链接官方来源。实验数值注明版本、图表与配置；区分作者结论、复现观察和阅读者推测。详细约定见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+| [README.md](README.md) | English homepage |
+| [README.zh-CN.md](README.zh-CN.md) | Chinese homepage |
+| [notes/](notes/) | Reading notes for individual works |
+| [templates/paper-note.md](templates/paper-note.md) | Paper analysis template: Background, Method, Experiments, and Limitation |
+| [assets/](assets/) | Figures and images used in notes |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution guidelines |
