@@ -21,7 +21,7 @@
 
 ### 2. Method
 
-![alt text](assets/agentgarten/image.png)
+![alt text](assets/code-world-model/image.png)
 
 - **Overview**:
   - 任务: 构建接近现实世界因果复杂性的开放世界，同时保持高视觉保真度
